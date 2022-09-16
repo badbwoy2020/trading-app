@@ -1,6 +1,5 @@
 import React from "react";
 import "./sidebar.css";
-import Chart from "../../chart/Chart";
 
 import {
   arrow,
