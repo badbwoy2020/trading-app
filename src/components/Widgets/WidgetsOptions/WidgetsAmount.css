@@ -1,0 +1,36 @@
+.widgetsamount {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.widgetsamount-images {
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  margin-right: 8px;
+}
+
+.widgetsamount-images .image-2 {
+  position: absolute;
+  right: 140px;
+}
+
+.widgetsamount small {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #6f767e;
+  margin-bottom: 3px !important;
+}
+
+.widgetsamount h4 {
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}

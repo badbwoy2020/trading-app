@@ -1,0 +1,27 @@
+.app__body {
+  display: flex;
+  max-width: 1440px;
+  margin: 20px auto;
+  scroll-behavior: smooth;
+  color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app__padding {
+  padding: 2rem 4rem;
+}
+
+.app__margin {
+  margin: 1rem 3rem;
+}
+
+@media screen and (max-width: 75em) {
+  .app__body {
+    font-size: 50%;
+  }
+}

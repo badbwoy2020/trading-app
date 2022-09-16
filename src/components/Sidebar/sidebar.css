@@ -1,0 +1,121 @@
+.sidebar {
+  background-color: var(--primary-color);
+  flex: 0 0 30%;
+  display: flex;
+}
+
+.sidebar__mini {
+  flex: 0 0 20%;
+  max-width: 108px;
+  display: flex;
+  padding: 1rem 0.25rem;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 10px;
+  border-right: 1px solid #dddee2;
+}
+
+.sidebar__mini-header {
+  background-color: var(--bg-color);
+  color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.sidebar__mini-header img {
+  object-fit: contain;
+}
+
+.sidebar__mini-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+  margin-bottom: auto;
+}
+
+.sidebar__mini-icons img:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.sidebar__mini-footer {
+  background: #623ce7;
+  box-shadow: 0px 15px 20px rgba(98, 60, 231, 0.35);
+  border-radius: 0px 15px 15px 15px;
+  color: #ffff;
+  padding: 0.65rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar__mini-footer h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.sidebar__large {
+  flex: 1;
+  text-align: center;
+}
+
+.sidebar__large-header {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__large-header__subtext h4 {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+.sidebar__large-header__subtext small {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+
+  opacity: 0.3;
+}
+
+.sidebar__large-body {
+  max-width: 317px;
+}
+
+.sidebar__barchat {
+  max-width: 150px;
+}
+
+.sidebar__mini-header__icons {
+  position: relative;
+  margin-right: 5px;
+  max-width: fit-content;
+}
+
+.sidebar__icons-avatar {
+  position: absolute;
+  top: 48px;
+  left: 220px;
+}
+
+.sidebar__margin {
+  margin-bottom: 15px;
+}
+
+.sidebar__marginTop {
+  margin-top: 20px;
+}
