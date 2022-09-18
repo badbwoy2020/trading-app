@@ -1,5 +1,4 @@
 import React from "react";
-import { ssidebar1, ssidebar3 } from "../Sidebar/imports";
 import {
   arrdown,
   arrup,
